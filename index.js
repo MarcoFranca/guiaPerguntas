@@ -3,6 +3,8 @@ const app = express();
 const bodyParser = require('body-parser');
 const conection = require('./database/database');
 const Pergunta = require('./database/Perguntas');
+const port = process.env.PORT || 8080;
+
 //database
 conection.authenticate().then(()=>{
     console.log("autenticação feita com BD")
@@ -43,4 +45,4 @@ app.post('/savequest',(req, res)=>{
     });
 });
 
-app.listen(8080,()=>{console.log("app rodando")})
+app.listen(port,()=>{console.log("app rodando")})
