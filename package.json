@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "uma plataforma de perguntas e respostas ao estilo Yahoo respostas",
   "main": "index.js",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "node index"
+    "start": "node index.js"
   },
   "author": "Marco Tullio Franca",
   "license": "ISC",
