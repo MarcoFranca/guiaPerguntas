@@ -1,0 +1,21 @@
+body{
+    background-color: rgba(15, 102, 116, 0.15);
+}
+
+.main-container{
+    box-sizing: border-box;
+    padding: 20px;
+    height: 100vh;
+}
+
+.btn-pers{
+    margin-top: 10px;
+}
+
+form label{
+    margin-top: 10px;
+}
+
+nav img{
+    width: 250px;
+}
